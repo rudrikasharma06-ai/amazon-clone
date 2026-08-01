@@ -1,0 +1,411 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar{
+    height:60px;
+    background-color:#131921;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+
+/* Logo */
+.nav-logo{
+    height:50px;
+    width:110px;
+    margin-left:10px;
+}
+
+.logo{
+    background-image:url("amazon_logo.png");
+    background-size:cover;
+    background-position:center;
+    height:50px;
+    width:100%;
+}
+
+/* Border Hover */
+.border{
+    border:2px solid transparent;
+    padding:5px;
+}
+
+.border:hover{
+    border:2px solid white;
+}
+
+/* Address */
+.nav-address{
+    margin-left:15px;
+}
+
+.add-first{
+    color:#cccccc;
+    font-size:0.75rem;
+    margin-left:15px;
+}
+
+.add-second{
+    font-size:1rem;
+    margin-left:3px;
+    font-weight:bold;
+}
+
+.icon{
+    display:flex;
+    align-items:center;
+}
+
+/* Search Bar */
+.nav-search{
+    display:flex;
+    align-items:center;
+    width:650px;
+    height:40px;
+    margin-left:20px;
+    border-radius:4px;
+    overflow:hidden;
+}
+
+.nav-search:hover{
+    border:2px solid orange;
+}
+
+.search-select{
+    width:55px;
+    height:100%;
+    border:none;
+    background:#f3f3f3;
+    text-align:center;
+}
+
+.search-input{
+    width:100%;
+    height:100%;
+    border:none;
+    outline:none;
+    font-size:1rem;
+    padding-left:10px;
+}
+
+.search-icon{
+    width:50px;
+    height:100%;
+    background-color:#febd68;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#0f1111;
+    font-size:1.2rem;
+    cursor:pointer;
+}
+
+.nav-search:hover{
+    background: 2px solid #f3a847;
+}
+.span{
+    font-size:0.7rem;
+}
+
+
+.nav-second{
+        font-size:0.85rem;
+        font-weight:bold;
+    }
+.nav-cart{
+    font-size:30px
+}
+
+.panel{
+    height:40px;
+    background-color:#222f3d;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:space-evenly;;
+}
+.panel-ops p{
+    display:inline;
+    margin-left:15px;  
+
+}
+.panel-ops {
+   font-size:0.58rem;
+    width:70%;
+    
+}
+.panel-deals{
+    font-size:0.9rem;
+   font-weight:700;
+}
+
+.Hero-section{
+    background-image:url("hero_image.jpg");
+    height:350px;
+    background-size:cover;
+    
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    
+}
+
+.hero-mes{
+    
+background-color:white;
+color:black;
+height:40px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:0.85rem;
+width:90%;
+ margin-bottom:50px;
+
+}
+
+.hero-mes a{
+    color:#007185;
+    margin-left:5px;
+}
+
+.box{
+   height:300px;
+   width:23%;
+   background-color:white;
+   padding:20px 0px 15px;
+   margin-top:15px;
+    
+}
+.shop-section{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#e7e7e7;
+    flex-wrap:wrap;
+   
+}
+
+.box-image{
+    height:200px;
+    background-size:cover;
+}
+
+.box-content{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.box-content p{
+    color:#007185;
+    
+}
+
+footer{
+    margin-top:20px;
+}
+
+.foot-panel1{
+    background-color:#37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.85rem;
+}
+
+.foot-panel2 {
+    display:flex;
+    background-color :#232f3e;
+    color:white;
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.85rem;
+    justify-content:space-evenly;
+}
+ul a{
+    display:block;
+    font-size:0.85rem;
+    margin-top:10px;
+    color:#dddddd;
+}
+
+ul{
+    margin-top:15px;
+}
+
+.foot-panel3{
+    background-color:#222f3d;
+    color:white;
+    border-top:0.5px solid white;
+    height:70px;
+   display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.75rem;
+    align-items:center;
+    
+}
+
+.logo{
+    background-image:url("amazon_logo.png");
+    background-size:cover;
+    height:50px;
+    width: 100px;
+}
+
+.foot-panel4{
+    background-color:#0f1111;
+    color:white;
+     height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.85rem; 
+}
+.copyright{
+    padding-top:5px;
+    font-size:0.60rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pages{
+    font-size:0.8rem;
+    text-align:center;
+    padding-top:25px;
+}
+
+/* ================= CHATBOT ================= */
+
+.chat-button{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:60px;
+    height:60px;
+    background:#ff9900;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+    z-index:999;
+}
+
+.chat-button:hover{
+    background:#f3a847;
+}
+
+.chat-container{
+    position:fixed;
+    bottom:90px;
+    right:20px;
+    width:360px;
+    height:520px;
+    background:white;
+    border-radius:15px;
+    display:none;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+    z-index:999;
+}
+
+.chat-header{
+    background:#131921;
+    color:white;
+    padding:15px;
+    font-size:18px;
+    font-weight:bold;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.chat-header span{
+    cursor:pointer;
+    font-size:20px;
+}
+
+.chat-body{
+    height:380px;
+    overflow-y:auto;
+    background:#f7f7f7;
+    padding:15px;
+}
+
+.user{
+    background:#0078ff;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    margin:10px 0;
+    width:fit-content;
+    margin-left:auto;
+    max-width:80%;
+}
+
+.bot{
+    background:white;
+    padding:10px;
+    border-radius:10px;
+    margin:10px 0;
+    width:fit-content;
+    max-width:80%;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+}
+
+.chat-input{
+    display:flex;
+    border-top:1px solid #ddd;
+}
+
+.chat-input input{
+    flex:1;
+    border:none;
+    outline:none;
+    padding:15px;
+    font-size:15px;
+}
+
+.chat-input button{
+    width:80px;
+    border:none;
+    background:#ff9900;
+    cursor:pointer;
+}
+
+.chat-input button:hover{
+    background:#f3a847;
+}
+
+.quick-options{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:15px;
+}
+
+.quick-options button,
+.bot button{
+
+    background:#febd69;
+    border:none;
+    border-radius:20px;
+    padding:8px 15px;
+    cursor:pointer;
+}
+
+.quick-options button:hover,
+.bot button:hover{
+    background:#f3a847;
+}
